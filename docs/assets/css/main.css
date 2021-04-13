@@ -2205,11 +2205,20 @@ input, select, textarea {
 		ul.links li {
 			line-height: 2.5em;
 			padding-left: 0;
+			target="_blank";
 		}
 	ul.links-assets li{
-		line-height: 0.5em;
+		line-height: 0.5linem;
 		font-size: 1px;
+		target="_blank";
 	}
+
+		ul.links li a{
+			target="_blank";
+}
+		ul.links-assets li a{
+			target="_blank";
+}
 
 /* Icons */
 
