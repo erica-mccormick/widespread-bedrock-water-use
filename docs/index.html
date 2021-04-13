@@ -145,7 +145,7 @@
 									<a href="https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/geo/?cid=nrcseprd1464625" class="image left"><img src="images/gnatsgo.png" alt="" /></a>
 									<div class="inner">
 										<h3>Soils Depth and Water Storage</h3>
-										<p>Gridded National Soil Survey Geographic Database (gNATSGO)<br> (Soil Survey Staff, 2019). Not available on GEE, but relevant inputs available in project Hydroshare respository.</p>
+										<p>Gridded National Soil Survey Geographic Database (gNATSGO)<br> (Soil Survey Staff, 2019). Not available on GEE, but is hosted as a <a href = "https://code.earthengine.google.com/?asset=users/ericamccormick/gNATSGO">personal asset </a> for this project, with relevant inputs also available as tifs in Hydroshare respository.</p>
 									</div>
 								</div>
 							</section>
@@ -174,7 +174,7 @@
 							<div class="box post">
 								<a href="#" class="image left"><img src="images/GEE_modislandcover.png" alt="" /></a>
 								<div class="inner">
-									<h3>Additional Datasets</h3>
+									<h3 id = "other-products">Additional Datasets</h3>
 									<p>Datasets used in the analyses of bedrock water storage but not required for making or masking project products include: Koppen Climate (Peel et al., 2007); MODIS Landcover (GEE), and Carbon (XXX).</p>
 								</div>
 							</div>
@@ -189,7 +189,6 @@
 							<header>
 								<h2>Personal Assets Hosted on Google Eart Engine</h2>
 							  <p>Please note: This is not a permanent repository. If these links cease to work, please find the same data, which can be added to GEE manually, stored permanently in the <a href="#">Hydroshare repository</a>.</p>
-								<p>(All assets start with the root file name 'users/ericamccormick')&nbsp;</p>
                             </header>
 						</article>
 	
@@ -198,20 +197,20 @@
 						<div class="row">
 							<section class="col-6 col-12-narrower">
 								<div class="box post">
-									<a href="https://developers.google.com/earth-engine/datasets/catalog/CAS_IGSNRR_PML_V2" class="image left"><img src="images/GEE_PML.png" alt="" /></a>
+									<a href="https://code.earthengine.google.com/?asset=users/ericamccormick/Dbedrock" class="image left"><img src="images/GEE_PML.png" alt="" /></a>
 									<div class="inner">
 										<h3>Bedrock water storage capacity</h3>
-										<p>GEE collection with annual bedrock water storage capacities for water years 2003 to 2017, at 500 m resolution for CONUS and masked (see section on Masking Layers).</p>
+										<p><a href = "https://code.earthengine.google.com/?asset=users/ericamccormick/Dbedrock">GEE collection</a>with annual bedrock water storage capacities for water years 2003 to 2017, at 500 m resolution for CONUS and masked (see section on Masking Layers).</p>
 										<p>GEE image of total bedrock water storage capacity (Sbedrock) calculated over the water years 2003 to 2017, at 500 m resolution for CONUS and masked (see section on Masking Layers).</p>
 									</div>
 								</div>
 							</section>
 							<section class="col-6 col-12-narrower">
 								<div class="box post">
-									<a href="https://developers.google.com/earth-engine/datasets/catalog/OREGONSTATE_PRISM_AN81d" class="image left"><img src="images/GEE_PRISM.png" alt="" /></a>
+									<a href="https://code.earthengine.google.com/?asset=users/ericamccormick/masking_layers" class="image left"><img src="images/GEE_PRISM.png" alt="" /></a>
 									<div class="inner">
 										<h3>Masking Layers</h3>
-										<p>Three masks were used to restrict analyses to places likely to use bedrock water and GEE images are given here for: <br> (1) Woody vegetation <br> (2) Depth to bedrock less than 1.5 m <br> (3) Cumulative evapotranspiration less than precipitation from 2003 to 2017. See the Methods section for more information on how these masks were created.</p>
+										<p>Three masks were used to restrict analyses to places likely to use bedrock water and GEE images are given in one <a href = "https://code.earthengine.google.com/?asset=users/ericamccormick/masking_layers">GEE image collection</a>, along with the combined total of the masks. These masks include: <br> (1) Woody vegetation <br> (2) Depth to bedrock less than 1.5 m <br> (3) Cumulative evapotranspiration less than precipitation from 2003 to 2017. See the Methods section for more information on how these masks were created.</p>
 									</div>
 								</div>
 							</section>
@@ -220,16 +219,16 @@
 						<div class="row">
 							<section class="col-6 col-12-narrower">
 								<div class="box post">
-									<a href="https://developers.google.com/earth-engine/datasets/catalog/CAS_IGSNRR_PML_V2" class="image left"><img src="images/GEE_PML.png" alt="" /></a>
+									<a href="https://code.earthengine.google.com/?asset=users/ericamccormick/20_RockMoisture/deficit/root-zone/Sr2003_2017_Mask" class="image left"><img src="images/GEE_PML.png" alt="" /></a>
 									<div class="inner">
 										<h3>Root-zone storage (Sr)</h3>
-										<p>GEE image of Sr (mm) taken as the maximum root-zone storage deficit from 2003 to 2017. For more information, see the Methods section, as well as Dralle et al., 2020, which details the snow correction method utilized for this product. The original inspiration was taken from Wang-Erlandsson et al., 2017, so you may also want to check that out!</p>
+										<p><a href = "https://code.earthengine.google.com/?asset=users/ericamccormick/20_RockMoisture/deficit/root-zone/Sr2003_2017_Mask">GEE image </a> of Sr (mm) taken as the maximum root-zone storage deficit from 2003 to 2017. For more information, see the Methods section, as well as Dralle et al., 2020, which details the snow correction method utilized for this product. The original inspiration was taken from Wang-Erlandsson et al., 2017, so you may also want to check that out!</p>
 									</div>
 								</div>
 							</section>
 							<section class="col-6 col-12-narrower">
 								<div class="box post">
-									<a href="https://developers.google.com/earth-engine/datasets/catalog/OREGONSTATE_PRISM_AN81d" class="image left"><img src="images/GEE_PRISM.png" alt="" /></a>
+									<a href="#other-products" class="image left"><img src="images/GEE_PRISM.png" alt="" /></a>
 									<div class="inner">
 										<h3>Other Products</h3>
 										<p>Several other products were used in this study which, although published prior to this work, were not hosted on GEE and therefore were uploaded by the authors as personal assets for use in the code. Please see the above section in this site for links to those data and relevant personal GEE assets.</p>
