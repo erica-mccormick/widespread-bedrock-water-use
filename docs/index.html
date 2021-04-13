@@ -192,45 +192,52 @@
 								<p>(All assets start with the root file name 'users/ericamccormick')&nbsp;</p>
                             </header>
 						</article>
-						<!-- Posts -->
+	
+										<!-- Posts -->
 					
 						<div class="row">
 							<section class="col-6 col-12-narrower">
-								<h3>Bedrock water storage capacities</h3>
-							  <ul class="links-asset">
-										<li>/20_RockMoisture/deficit/bedrock/Dbedrock_2004</li>
-										<li>/20_RockMoisture/deficit/bedrock/Dbedrock_2005</li>
-										<li>/20_RockMoisture/deficit/bedrock/Dbedrock_2006</li>
-										<li>/20_RockMoisture/deficit/bedrock/Dbedrock_2007</li>
-										<li>/20_RockMoisture/deficit/bedrock/Dbedrock_2008</li>
-										<li>/20_RockMoisture/deficit/bedrock/Dbedrock_2009</li>
-										<li>/20_RockMoisture/deficit/bedrock/Dbedrock_2010</li>
-										<li>/20_RockMoisture/deficit/bedrock/Dbedrock_2011</li>
-										<li>/20_RockMoisture/deficit/bedrock/Dbedrock_2012</li>
-										<li>/20_RockMoisture/deficit/bedrock/Dbedrock_2013</li>
-										<li>/20_RockMoisture/deficit/bedrock/Dbedrock_2014</li>
-										<li>/20_RockMoisture/deficit/bedrock/Dbedrock_2015</li>
-										<li>/20_RockMoisture/deficit/bedrock/Dbedrock_2016</li>
-										<li>/20_RockMoisture/deficit/bedrock/Dbedrock_2017</li>
-									</ul>
+								<div class="box post">
+									<a href="https://developers.google.com/earth-engine/datasets/catalog/CAS_IGSNRR_PML_V2" class="image left"><img src="images/GEE_PML.png" alt="" /></a>
+									<div class="inner">
+										<h3>Bedrock water storage capacity</h3>
+										<p>GEE collection with annual bedrock water storage capacities for water years 2003 to 2017, at 500 m resolution for CONUS and masked (see section on Masking Layers).</p>
+										<p>GEE image of total bedrock water storage capacity (Sbedrock) calculated over the water years 2003 to 2017, at 500 m resolution for CONUS and masked (see section on Masking Layers).</p>
+									</div>
+								</div>
 							</section>
-							
 							<section class="col-6 col-12-narrower">
-								<h3>Precipitation</h3>
-								<p>PRISM Daily Spatial Climate Dataset<br> (Daly et al., 2007). 2.5 arc-minute resolution. Available on GEE from 1981 to 2021. Bands used = 'ppt.'</p>
-							</section>
-					  </div>
-						<div class="row">
-							<section class="col-6 col-12-narrower">
-								<h3>Masking Layers</h3>
-								<p>Penman-Monteith-Leuning Evapotranspiration V2 (PML_V2) <br> (XXXX et al., XXX). 500 m resolution. Available on GEE from 2002 to 2017. Bands used = 'Es' and 'Ec'.</p>
-							</section>
-							
-							<section class="col-6 col-12-narrower">
-								<h3>Public Datasets Uploaded Privately to GEE</h3>
-								<p>PRISM Daily Spatial Climate Dataset<br> (Daly et al., 2007). 2.5 arc-minute resolution. Available on GEE from 1981 to 2021. Bands used = 'ppt.'</p>
+								<div class="box post">
+									<a href="https://developers.google.com/earth-engine/datasets/catalog/OREGONSTATE_PRISM_AN81d" class="image left"><img src="images/GEE_PRISM.png" alt="" /></a>
+									<div class="inner">
+										<h3>Masking Layers</h3>
+										<p>Three masks were used to restrict analyses to places likely to use bedrock water and GEE images are given here for: <br> (1) Woody vegetation <br> (2) Depth to bedrock less than 1.5 m <br> (3) Cumulative evapotranspiration less than precipitation from 2003 to 2017. See the Methods section for more information on how these masks were created.</p>
+									</div>
+								</div>
 							</section>
 						</div>
+						
+						<div class="row">
+							<section class="col-6 col-12-narrower">
+								<div class="box post">
+									<a href="https://developers.google.com/earth-engine/datasets/catalog/CAS_IGSNRR_PML_V2" class="image left"><img src="images/GEE_PML.png" alt="" /></a>
+									<div class="inner">
+										<h3>Root-zone storage (Sr)</h3>
+										<p>GEE image of Sr (mm) taken as the maximum root-zone storage deficit from 2003 to 2017. For more information, see the Methods section, as well as Dralle et al., 2020, which details the snow correction method utilized for this product. The original inspiration was taken from Wang-Erlandsson et al., 2017, so you may also want to check that out!</p>
+									</div>
+								</div>
+							</section>
+							<section class="col-6 col-12-narrower">
+								<div class="box post">
+									<a href="https://developers.google.com/earth-engine/datasets/catalog/OREGONSTATE_PRISM_AN81d" class="image left"><img src="images/GEE_PRISM.png" alt="" /></a>
+									<div class="inner">
+										<h3>Other Products</h3>
+										<p>Several other products were used in this study which, although published prior to this work, were not hosted on GEE and therefore were uploaded by the authors as personal assets for use in the code. Please see the above section in this site for links to those data and relevant personal GEE assets.</p>
+									</div>
+								</div>
+							</section>
+						</div>
+
 
 			<!-- Footer -->
 				<div id="footer">
