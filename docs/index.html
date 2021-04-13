@@ -1,0 +1,225 @@
+<!DOCTYPE HTML>
+<!--
+	Arcana by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Widespread use of bedrock water by plants</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"/>
+
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Banner1 -->
+				<section id="prebanner">
+				</section>
+			
+			<!-- Banner2 -->
+				<section id="banner">
+					<header> 
+					  <h2>Evidence for <br> widespread woody plant use <br> of bedrock water</h2>
+                    </header>
+				</section>
+
+			<!-- Main -->
+				<section class="wrapper style1">
+					<div class="container">
+						<div class="row gtr-200">
+							<div class="col-8 col-12-narrower">
+								<div id="content">
+
+									<!-- Content -->
+
+										<article>
+											<header>
+												<h2>Overview & Abstract</h2>
+												<p>Below: A conceptual diagram of the partitioning between soil and bedrock water storage capacity, where the latter is the focus of this project.</p>
+											</header>
+
+											<span class="image featured"><img src="images/profile.png" alt="Figure 1" /></span>
+
+											<p>Woody plant transpiration is a major control on Earth's climate system, streamflow, and human water supply. Soils are widely considered to be the primary reservoir of water for woody plants, however, plants also access water stored in the fractures and pores of bedrock, either as rock moisture (water stored in the unsaturated zone) (Schwinning, 2010) or bedrock groundwater (below the water table) (Miller, 2010). Bedrock as a water source for plants has not been evaluated over large scales, and consequently, its importance to terrestrial water and carbon cycling is poorly understood (Fan, 2019). </p> <p> Here, we use remotely sensed water fluxes and soil survey data to show that woody plants routinely access significant quantities of water stored in bedrock - commonly as rock moisture -for transpiration across diverse climates and biomes. For example, in California, the volume of bedrock water transpired by woody vegetation annually exceeds that stored in man-made reservoirs, and woody vegetation that withdraws bedrock water accounts for over 50% of the above-ground carbon stocks in the state. Our findings show that bedrock water storage dynamics are a critical element of terrestrial water cycling and therefore necessary to capture the effect of shifting climate on woody ecosystems, above- and below-ground carbon storage, and water resources.</p>
+
+											<h3>Code and Data Availability</h3>
+
+											<p>All of the code for this project is available in the Github Respository.</p>
+											<p>All of the resulting data products from this project are available in the Hydroshare Repository.</p>
+											<p>Please cite this paper like this: ........</p>
+
+											
+											<h3>Collaborators and Affiliations</h3>
+											
+											<p>
+												<ul id = "personel">
+													<li> Erica McCormick</li>
+													<li> Daniella Rempe</li>
+													<li>David Dralle</li>
+													<li>W. Jesse Hahm</li>
+													<li>K. Dana Chadwick</li>
+													<li>Alison K. Tune</li>
+													<li>Logan Schmidt</li>
+												</ul>
+											
+											</p>
+										</article>
+
+								</div>
+							</div>
+							<div class="col-4 col-12-narrower">
+								<div id="sidebar">
+
+									<!-- Sidebar -->
+
+										<section>
+											<h3>Publically Available Data</h3>
+											<p>We used Google Earth Engine in the Google Colab environment for the bulk of the analyses associated with this paper. See the schematic below for a workflow of the calculation of total and annual bedrock water storage capacity. Input  products (solid thick border) are reported with their spatial resolution. Calculations and thresholds are reported in white boxes. Procedures to mask pixels from study are shown on right.</p>
+											<footer>
+												<a href="#data" class="button">More Info on Data Inputs</a>
+											</footer>
+										</section>
+
+										<span class="image featured2" ><img style="width:100%" src="images/squish.png" alt="Figure 1" /></span>
+
+									
+									
+										<section>
+											<h3>Affiliations and Further Reading</h3>
+											<ul class="links">
+												<li><a href="#">Rempe Vadose Zone Hydrology Lab</a></li>
+												<li><a href="#">Hahm Simon Fraser Lab</a></li>
+												<li><a href="#">University of Texas at Austin</a></li>
+												<li><a href="#">Consequat etiam lorem phasellus</a></li>
+												<li><a href="#">Amet turpis, feugiat et sit amet</a></li>
+												<li><a href="#">Semper mod quisturpis nisi</a></li>
+											</ul>
+											<footer>
+												<a href="#" class="button">More Random Links</a>
+											</footer>
+										</section>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<a id ="data"> </a>
+				<section class="wrapper style2">
+					<div class="container">
+						<article>
+							<header>
+								<h2> Publically Available Data Sources</h2>
+								<p>Links to original sources and Google Earth Engine dataset pages </p>
+							</header>
+						</article>
+						<!-- Posts -->
+					
+						<div class="row">
+							<section class="col-6 col-12-narrower">
+								<div class="box post">
+									<a href="https://developers.google.com/earth-engine/datasets/catalog/CAS_IGSNRR_PML_V2" class="image left"><img src="images/GEE_PML.png" alt="" /></a>
+									<div class="inner">
+										<h3>Evapotranspiration</h3>
+										<p>Penman-Monteith-Leuning Evapotranspiration V2 (PML_V2) <br> (XXXX et al., XXX). 500 m resolution. Available on GEE from 2002 to 2017. Bands used = 'Es' and 'Ec'.</p>
+									</div>
+								</div>
+							</section>
+							<section class="col-6 col-12-narrower">
+								<div class="box post">
+									<a href="https://developers.google.com/earth-engine/datasets/catalog/OREGONSTATE_PRISM_AN81d" class="image left"><img src="images/GEE_PRISM.png" alt="" /></a>
+									<div class="inner">
+										<h3>Precipitation</h3>
+										<p>PRISM Daily Spatial Climate Dataset<br> (Daly et al., 2007). 2.5 arc-minute resolution. Available on GEE from 1981 to 2021. Bands used = 'ppt.'</p>
+									</div>
+								</div>
+							</section>
+						</div>
+						<div class="row">
+							<section class="col-6 col-12-narrower">
+								<div class="box post">
+									<a href="https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/geo/?cid=nrcseprd1464625" class="image left"><img src="images/gnatsgo.png" alt="" /></a>
+									<div class="inner">
+										<h3>Soils Depth and Water Storage</h3>
+										<p>Gridded National Soil Survey Geographic Database (gNATSGO)<br> (Soil Survey Staff, 2019). Not available on GEE, but relevant inputs available in project Hydroshare respository.</p>
+									</div>
+								</div>
+							</section>
+							<section class="col-6 col-12-narrower">
+								<div class="box post">
+									<a href="https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2016_REL" class="image left"><img src="images/GEE_NLCD.png" alt="" /></a>
+									<div class="inner">
+										<h3>Woody Vegetation</h3>
+										<p>United States Geological Society National Land Cover Database (USGS NLCD) <br> (XXX et al., XXXX). 30 m resolution. Available on GEE. Bands used: 'landcover'. </p>
+									</div>
+								</div>
+							</section>
+						</div>
+						
+						<div class="row">
+						<section class="col-6 col-12-narrower">
+							<div class="box post">
+								<a href="https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MOD10A1" class="image left"><img src="images/GEE_snow.png" alt="" /></a>
+								<div class="inner">
+									<h3>Snow Cover</h3>
+									<p>MODIS Terra Daily Global Snow Cover <br> (XXXX et al., XXX) 500 m resolution. Available on GEE. Bands used: 'NDSI_Snow_Cover.''</p>
+								</div>
+							</div>
+						</section>
+						<section class="col-6 col-12-narrower">
+							<div class="box post">
+								<a href="#" class="image left"><img src="images/GEE_modislandcover.png" alt="" /></a>
+								<div class="inner">
+									<h3>Additional Datasets</h3>
+									<p>Datasets used in the analyses of bedrock water storage but not required for making or masking project products include: Koppen Climate (Peel et al., 2007); MODIS Landcover (GEE), and Carbon (XXX).</p>
+								</div>
+							</div>
+						</section>
+					</div>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<div id="footer">
+					<!-- Icons -->
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							<li><a href="#" class="icon brands fa-google-plus-g"><span class="label">Google+</span></a></li>
+						</ul>
+
+					<!-- Copyright -->
+						<div class="copyright">
+							<header>
+								<a href = "https://github.com/erica-mccormick/widespread-bedrock-water-use"> widespread-bedrock-water-use </a>
+								is maintained on by 
+								<a href="https://github.com/erica-mccormick" >erica-mccormick</a>
+								<br>
+								erica.mccormick@utexas.edu
+							</header>
+							<ul class="menu">
+								<li>Author: Erica McCormick. </li>
+								<li>Design modified from <a href="http://html5up.net">HTML5 UP.</a></li>
+							</ul>
+						</div>
+
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
