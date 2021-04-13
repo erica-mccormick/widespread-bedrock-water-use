@@ -2206,6 +2206,10 @@ input, select, textarea {
 			line-height: 2.5em;
 			padding-left: 0;
 		}
+	ul.links-assets li{
+		line-height: 0.5em;
+		font-size: 1px;
+	}
 
 /* Icons */
 
