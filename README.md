@@ -19,7 +19,7 @@ Links to the relevant GEE assets, both public and those which were created for t
 
 See <a href = "https://erica-mccormick.github.io/widespread-bedrock-water-use/"> webpage </a> for more information on data sources used and produced during this project.
 
-See the <a href = "https://doi.org/10.4211/hs.a2f0d5fd10f14cd189a3465f72cba6f3" Hydroshare repository </a> for data products used and produced during this project.
+See the <a href = "https://doi.org/10.4211/hs.a2f0d5fd10f14cd189a3465f72cba6f3"> Hydroshare repository </a> for data products used and produced during this project.
 
 
 
