@@ -1,5 +1,7 @@
 # widespread-bedrock-water-use
-# Code for "Evidence for widespread woody plant use of water stored in bedrock." (Submitted 2021). Authors: Erica McCormick, David Dralle, W. Jesse Hahm, Alison Tune, Logan Schmidt, K Dana Chadwick, Daniella Rempe.
+# Code for "Evidence for widespread woody plant use of water stored in bedrock." (Submitted 2021). 
+
+## Authors: Erica McCormick, David Dralle, W. Jesse Hahm, Alison Tune, Logan Schmidt, K Dana Chadwick, Daniella Rempe.
 
 Last updated April 14, 2021 by Erica McCormick
 
