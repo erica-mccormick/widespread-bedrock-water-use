@@ -11,6 +11,8 @@ Code_Part1 and Code_Part2 are available here as .ipynb files as well as on Googl
 *<a href = "https://colab.research.google.com/drive/1g2pYqrG8hdfIFOz_usI6JHb4BkwR8bxM?usp=sharing"> Part1 </a>* <br>
 *<a href = "https://colab.research.google.com/drive/1zkYPtBW-og_P76bxtsqWl62ftXZQ9INr?usp=sharing"> Part2 </a>* 
 
+We used Google Earth Engine in the <a href = "https://colab.research.google.com/">Google Colab </a><a href = "https://developers.google.com/earth-engine/guides/python_install">Python API </a>environment for the bulk of the analyses associated with this paper. This is a free service, however it requires users to <a href = "https://earthengine.google.com/new_signup/">sign-up </a>prior to use.
+
 Code_Part1 details the creation of Sr, Dmax, Sbedrock, and Dbedrock,Y using Google Earth Engine using the Python API in the GoogleColab environment. <br>
 Code_Part2 uses products from Code_Part1 to complete the analyses presented in the manuscript.
 
