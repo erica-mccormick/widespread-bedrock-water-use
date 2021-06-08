@@ -12,7 +12,6 @@ Last updated June 8, 2021 by Erica McCormick
 <blockquote>Erica McCormick, David Dralle, W. Jesse Hahm, Alison Tune, Logan Schmidt, K. Dana Chadwick, & Daniella Rempe. (2021, June 6). Code for manuscript: "Evidence for widespread woody plant use of water stored in bedrock." (Version v1.0.0). Zenodo. http://doi.org/10.5281/zenodo.4904037 </blockquote>
 
 
-
 ## **CODE AVAILABILITY**
 
 Code_Part1 and Code_Part2 are available here as .ipynb files as well as on GoogleColab at the following links (view only):
@@ -26,11 +25,11 @@ Links to the relevant GEE assets, both public and those which were created for t
 
 ## **DATA AVAILABILITY**
 
-<a href="https://doi.org/10.4211/hs.a2f0d5fd10f14cd189a3465f72cba6f3"><img src="https://zenodo.org/badge/357586333.svg" alt="DOI"></a>
-
 See <a href = "https://erica-mccormick.github.io/widespread-bedrock-water-use/"> webpage </a> for more information on data sources used and produced during this project.
 
 See the <a href = "https://doi.org/10.4211/hs.a2f0d5fd10f14cd189a3465f72cba6f3"> Hydroshare repository </a> for data products used and produced during this project.
+
+A preprint of the first submission of the manuscript in review is available <a href = "https://www.researchsquare.com/article/rs-138459/v1"> here </a>.
 
 
 
