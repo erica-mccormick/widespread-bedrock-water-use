@@ -13,7 +13,7 @@ Code_Part1 and Code_Part2 are available here as .ipynb files as well as on Googl
 *<a href = "https://colab.research.google.com/drive/1g2pYqrG8hdfIFOz_usI6JHb4BkwR8bxM?usp=sharing"> Part1 </a>*: Calculation of Sr, Dmax, Sbedrock, and Dbedrock,Y <br>
 *<a href = "https://colab.research.google.com/drive/1zkYPtBW-og_P76bxtsqWl62ftXZQ9INr?usp=sharing"> Part2 </a>*: analyses and figures
 
-We used Google Earth Engine in the <a href = "https://colab.research.google.com/">Google Colab </a><a href = "https://developers.google.com/earth-engine/guides/python_install">Python API </a>environment for the bulk of the analyses associated with this paper. This is a free service, however it requires users to <a href = "https://earthengine.google.com/new_signup/">sign-up </a>prior to use.
+We used Google Earth Engine in the <a href = "https://colab.research.google.com/">Google Colab </a><a href = "https://developers.google.com/earth-engine/guides/python_install">Python API </a>environment for the bulk of the analyses associated with this paper. This is a free service, however, it requires users to <a href = "https://earthengine.google.com/new_signup/">sign-up </a>prior to use.
 
 Links to the relevant GEE assets, both public and those which were created for this project, are available in the code (Part 2) as well as on the <a href = "https://erica-mccormick.github.io/widespread-bedrock-water-use/"> webpage </a>.
 
