@@ -5,8 +5,11 @@
 
 Last updated April 14, 2021 by Erica McCormick
 
-Please cite as:
-Erica McCormick, David Dralle, W. Jesse Hahm, Alison Tune, Logan Schmidt, K. Dana Chadwick, & Daniella Rempe. (2021, June 6). Code for manuscript: "Evidence for widespread woody plant use of water stored in bedrock." (Version v1.0.0). Zenodo. http://doi.org/10.5281/zenodo.4904037
+<a href="https://zenodo.org/badge/latestdoi/357586333"><img src="https://zenodo.org/badge/357586333.svg" alt="DOI"></a>
+
+
+### Please cite as:
+<blockquote>Erica McCormick, David Dralle, W. Jesse Hahm, Alison Tune, Logan Schmidt, K. Dana Chadwick, & Daniella Rempe. (2021, June 6). Code for manuscript: "Evidence for widespread woody plant use of water stored in bedrock." (Version v1.0.0). Zenodo. http://doi.org/10.5281/zenodo.4904037 </blockquote>
 
 
 
