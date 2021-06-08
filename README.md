@@ -3,7 +3,7 @@
 
 ## Authors: Erica McCormick, David Dralle, W. Jesse Hahm, Alison Tune, Logan Schmidt, K Dana Chadwick, Daniella Rempe.
 
-Last updated April 14, 2021 by Erica McCormick
+Last updated June 8, 2021 by Erica McCormick
 
 <a href="https://zenodo.org/badge/latestdoi/357586333"><img src="https://zenodo.org/badge/357586333.svg" alt="DOI"></a>
 
@@ -25,6 +25,8 @@ We used Google Earth Engine in the <a href = "https://colab.research.google.com/
 Links to the relevant GEE assets, both public and those which were created for this project, are available in the code (Part 2) as well as on the <a href = "https://erica-mccormick.github.io/widespread-bedrock-water-use/"> webpage </a>.
 
 ## **DATA AVAILABILITY**
+
+<a href="https://doi.org/10.4211/hs.a2f0d5fd10f14cd189a3465f72cba6f3"><img src="https://zenodo.org/badge/357586333.svg" alt="DOI"></a>
 
 See <a href = "https://erica-mccormick.github.io/widespread-bedrock-water-use/"> webpage </a> for more information on data sources used and produced during this project.
 
