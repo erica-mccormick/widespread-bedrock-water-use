@@ -2,7 +2,7 @@
 
 ## Authors: Erica McCormick, David Dralle, W. Jesse Hahm, Alison Tune, Logan Schmidt, K Dana Chadwick, Daniella Rempe.
 
-Last updated June 8, 2021 by Erica McCormick
+Last updated August 14, 2021 by Erica McCormick
 
 <a href="https://zenodo.org/badge/latestdoi/357586333"><img src="https://zenodo.org/badge/357586333.svg" alt="DOI"></a>
 
