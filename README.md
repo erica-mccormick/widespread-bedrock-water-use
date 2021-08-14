@@ -1,6 +1,6 @@
 # Code for "Evidence for widespread woody plant use of water stored in bedrock." (Accepted: Nature, 2021). 
 
-## Authors: Erica L. McCormick, David Dralle, W. Jesse Hahm, Alison Tune, Logan Schmidt, K Dana Chadwick, Daniella Rempe.
+## Erica L. McCormick, David Dralle, W. Jesse Hahm, Alison Tune, Logan Schmidt, K Dana Chadwick, Daniella Rempe. http://doi.org/10.1038/s41586-021-03761-3.
 
 Last updated August 14, 2021 by Erica McCormick
 
