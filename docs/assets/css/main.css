@@ -1969,6 +1969,18 @@ input, select, textarea {
 		margin-bottom: 2.25em;
 	}
 
+	header h1 {
+		  position: absolute;
+		  top: 60%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+		  color: white;
+		  text-align: center;
+		  font-size: 3em;
+		  white-space: nowrap;
+		  line-height: 1em;
+	}
+
 	header.major {
 		text-align: center;
 		margin: 0 0 2em 0;
@@ -1987,6 +1999,7 @@ input, select, textarea {
 			font-size: 1.5em;
 			letter-spacing: -0.025em;
 		}
+
 
 	footer {
 		margin: 0 0 3em 0;
@@ -2557,12 +2570,12 @@ input, select, textarea {
 		background-color: #fff;
 		background-image: url("images/bg02.png"), url("images/bg02.png"), url("images/bg01.png");
 		background-position: top left,					top left,					top left;
-		background-size: 100% 6em,					100% 6em,					auto;
+		background-size: 100% 3em,					100% 6em,					auto;
 		background-repeat: no-repeat,					no-repeat,					repeat;
 	}
 
 		#header h1 {
-			padding: 0 0 2.75em 0;
+			padding: 0;
 			margin: 0;
 		}
 
@@ -2708,8 +2721,8 @@ input, select, textarea {
 
 	#banner {
 
-		background-image: url("../../images/RiR2.jpeg");		
-		background-position: 50% 65%;
+		background-image: url("../../images/cover_bay_cropped_dark.jpg");		
+		background-position: 50% 36%;
 		background-size: cover;
 		height: 15em;
 		text-align: center;
@@ -2718,7 +2731,7 @@ input, select, textarea {
 
 		#banner header h2 {
 			width: 100%;
-			color: #fff;
+			color: black;
 			line-height: 1em;
 			font-size: 3em;
 			display: inline-block;
