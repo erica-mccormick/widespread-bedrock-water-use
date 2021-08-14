@@ -1969,9 +1969,14 @@ input, select, textarea {
 		margin-bottom: 2.25em;
 	}
 
+			header p strong {
+				color: #404248;
+				font-weight: 800;
+			}
+
 	header h1 {
 		  position: absolute;
-		  top: 60%;
+		  top: 50%;
 		  left: 50%;
 		  transform: translate(-50%, -50%);
 		  color: white;
@@ -2724,22 +2729,27 @@ input, select, textarea {
 		background-image: url("../../images/cover_bay_cropped_dark.jpg");		
 		background-position: 50% 36%;
 		background-size: cover;
-		height: 15em;
+		height: 100vh;
 		text-align: center;
 		position: relative;
 	}
 
-		#banner header h2 {
-			width: 100%;
-			color: black;
-			line-height: 1em;
-			font-size: 3em;
-			display: inline-block;
-			text-align: center;
-			vertical-align: center;
-			-webkit-text-stroke-width: 1.5px;
-    		-webkit-text-stroke-color: black;
+		#banner h1 {
+			border: solid 1px rgba(255, 255, 255, 0.25);
+			border-left: 0;
+			border-right: 0;
+			color: #fff;
+			color: rgba(255, 255, 255, 0.75);
+			font-size: 2.35em;
+			font-weight: 700;
+			line-height: 1.3em;
+			margin: 0 0 1.5em 0;
+			position: absolute;
+			left: center;
+			top: center;
 		}
+
+
 
 /* Wrapper */
 
@@ -2756,7 +2766,7 @@ input, select, textarea {
 			background-image: url("images/bg02.png"), url("images/bg03.png"), url("images/bg01.png");
 			background-position: top left,						bottom left,					top left;
 			background-size: 100% 6em,						100% 6em,						auto;
-			background-repeat: no-repeat,						no-repeat,						repeat;
+			background-repeat: no-repeat,		h				no-repeat,						repeat;
 		}
 
 		.wrapper.style3 {
