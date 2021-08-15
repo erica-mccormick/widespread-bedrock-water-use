@@ -113,7 +113,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-		color: #37c0fb;
+		color: #0b23a1; 
 		text-decoration: none;
 		border-bottom: dotted 1px;
 	}
@@ -2168,13 +2168,13 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+		 /*	font-family: 'Font Awesome 5 Brands'; */
 		}
 
 		.icon.major {
 			text-align: center;
 			cursor: default;
-			background-color: #37c0fb;
+			background-color: #2a356e;
 			background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
@@ -2186,7 +2186,7 @@ input, select, textarea {
 			height: 5em;
 			line-height: 5em;
 			box-shadow: 0 0 0 7px white, 0 0 0 8px #e0e0e0;
-			margin: 0 0 2em 0;
+			margin: -1 0 2em 0;
 		}
 
 			.icon.major:before {
@@ -2719,7 +2719,7 @@ input, select, textarea {
 		background-image: url("../../images/page-break-after: ;");	
 		background-position: 50% 65%;
 		background-size: cover;
-		height: 2em;
+		height: 0em;
 		text-align: center;
 		position: relative;
 	}
@@ -2729,7 +2729,7 @@ input, select, textarea {
 		background-image: url("../../images/cover_bay_cropped_dark.jpg");		
 		background-position: 50% 36%;
 		background-size: cover;
-		height: 100vh;
+		height: 15em;
 		text-align: center;
 		position: relative;
 	}
