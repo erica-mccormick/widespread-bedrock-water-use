@@ -2766,7 +2766,7 @@ input, select, textarea {
 			background-image: url("images/bg02.png"), url("images/bg03.png"), url("images/bg01.png");
 			background-position: top left,						bottom left,					top left;
 			background-size: 100% 6em,						100% 6em,						auto;
-			background-repeat: no-repeat,		h				no-repeat,						repeat;
+			background-repeat: no-repeat,				no-repeat,						repeat;
 		}
 
 		.wrapper.style3 {
