@@ -2763,6 +2763,14 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
+			background-color: #c1cbde;
+			background-image: url("images/bg02.png"), url("images/bg03.png"), url("images/bg01.png");
+			background-position: top left,						bottom left,					top left;
+			background-size: 100% 3em,						100% 6em,						auto;
+			background-repeat: no-repeat,				no-repeat,						repeat;
+		}
+
+		.wrapper.styleCOLOR {
 			background-color: #fff;
 			background-image: url("images/bg02.png"), url("images/bg03.png"), url("images/bg01.png");
 			background-position: top left,						bottom left,					top left;
