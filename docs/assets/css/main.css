@@ -2714,7 +2714,7 @@ input, select, textarea {
 /* Banner */
 
 	#prebanner {
-
+		
 
 		background-image: url("../../images/page-break-after: ;");	
 		background-position: 50% 65%;
@@ -2725,8 +2725,9 @@ input, select, textarea {
 	}
 
 	#banner {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("../../images/ghana_nature.JPG");
 
-		background-image: url("../../images/cover_bay_cropped_dark.jpg");		
+		/* background-image: url("../../images/ghana_nature.JPG");		*/
 		background-position: 50% 36%;
 		background-size: cover;
 		height: 15em;
